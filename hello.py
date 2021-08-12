@@ -5,4 +5,4 @@ def app(env, start_response):
 		('Content-Type', 'text/plain')
 	]
 	start_response(status, headers)
-	return iter([data])
+	return iter(data)
